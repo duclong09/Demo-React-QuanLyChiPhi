@@ -8,7 +8,7 @@ export const TransactionList = () => {
 
   return (
     <>
-      <h3>Lịch sử chi tiêu</h3>
+      <h3>Danh sách chi tiêu</h3>
       <ul className="list">
         {transactions.map(transaction => (<Transaction key={transaction.id} transaction={transaction} />))}
       </ul>
