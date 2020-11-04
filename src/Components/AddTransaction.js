@@ -21,6 +21,7 @@ export const AddTransaction = () => {
   return (
     <>
       <h3>Thêm Giao Dịch Mới </h3>
+      
       <form onSubmit={onSubmit}>
         <div className="form-control">
           <label htmlFor="text">Text</label>
@@ -47,6 +48,8 @@ export const AddTransaction = () => {
         </div>
         <button className="btn">Thêm</button>
       </form>
+
+      
     </>
   );
 };
